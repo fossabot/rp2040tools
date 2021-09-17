@@ -1,4 +1,6 @@
 # rp2040tools
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fper1234%2Frp2040tools.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fper1234%2Frp2040tools?ref=badge_shield)
+
 
 This repo contains all the tools used by Arduino to upload compiled code to the boards that use the rp2040 processor.
 The repo includes also the dependencies and the Dockerfile used to crosscompile the tools.
@@ -16,3 +18,7 @@ The [release workflow](https://github.com/arduino/rp2040tools/blob/master/.githu
 - a job which uses a docker container (called crossbuild) with all the toolchains inside required to cross-compile the two tools from raspberry pi. The binaries produced are as static and self-contained as possible.
 - a job that cross-compiles the go tool called rp2040load.
 - one last job used to move in the correct folders the binaries and to `tar.bz2` them and upload them in the [github release page](https://github.com/arduino/rp2040tools/releases) and on s3 download server.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fper1234%2Frp2040tools.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fper1234%2Frp2040tools?ref=badge_large)
